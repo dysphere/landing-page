@@ -1,0 +1,124 @@
+ul {
+list-style: none;
+display: flex;
+gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p {
+    font-size: 36px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 50px;
+    padding-bottom: 100px;
+}
+
+.images {
+height: 100px;
+width: 100px;
+display: flex;
+gap: 20px;
+flex: 0 0 auto;
+flex-direction: column;
+}
+
+.subtext {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-heading {
+    display: flex;
+}
+
+.banner {
+display: flex;
+height: 300px;
+width: 600px;
+align-self: flex-end;
+}
+
+.infotitle {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+button {
+background-color: #3882f6;
+}
+
+.information {
+    background-color: white;
+}
+
+.copyright {
+    text-align: center;
+    background-color:#1f2937;
+    color: #f9faf8;
+    padding: 10px;
+}
+
+.lower-heading {
+    display: flex;
+}
+
+.description {
+    display: flex;
+    color: #f9faf8;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.top-banner {
+background-color: #1f2937;
+}
+
+.lower-banner {
+    padding: 20px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 100px 200px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
