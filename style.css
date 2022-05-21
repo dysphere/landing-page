@@ -10,6 +10,10 @@ a {
     color: #e5e7eb;
 }
 
+body {
+    font-family: "Roboto";
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -28,33 +32,42 @@ html, body {
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
+    margin-top: 100px;
+    margin-bottom: 35px;
+    padding: 0px 200px;
 }
 
 .images-container {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 40px;
     justify-content: center;
     margin: 10px 50px;
     padding-bottom: 100px;
 }
 
 .images {
-height: 100px;
-width: 100px;
 display: flex;
 gap: 20px;
 flex: 0 0 auto;
 flex-direction: column;
+height: 150px;
+width: 150px;
+max-height: auto;
+max-width: auto;
 }
 
 .subtext {
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    padding-bottom: 70px;
+    margin-bottom: 70px;
 }
 
 .banner-heading {
     display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .banner {
@@ -69,6 +82,7 @@ align-self: flex-end;
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    margin-bottom: 35px;
 }
 
 .header {
@@ -83,10 +97,14 @@ align-self: flex-end;
 
 button {
 background-color: #3882f6;
+border-radius: 5px;
+color: #f9faf8;
+padding: 4px 16px;
 }
 
 .information {
     background-color: white;
+    margin-top: 35px;
 }
 
 .copyright {
@@ -105,6 +123,8 @@ background-color: #3882f6;
     color: #f9faf8;
     flex-direction: column;
     align-items: flex-start;
+    width: 500px;
+    padding-right: 50px;
 }
 
 .top-banner {
@@ -112,13 +132,48 @@ background-color: #1f2937;
 }
 
 .lower-banner {
-    padding: 20px;
+    padding: 40px;
     background-color: #3882f6;
     color: #f9faf8;
-    margin: 100px 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 35px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.top-website {
+font-size: 48px;
+font-weight: 800;
+color: #f9faf8;
+padding-left: 200px;
+}
+
+.top-subtext {
+    color: #f9faf8;
+    padding-left: 200px;
+}
+
+.quote strong {
+    padding-left: 350px;
+}
+
+.description button {
+    margin-left: 200px;
+    margin-top: 10px;
+    border-color: #3882f6;
+}
+
+.banner-words {
+    padding-right: 100px;
+}
+
+.bottom-button button {
+    border-color: #f9faf8;
 }
